@@ -1,0 +1,336 @@
+.logo-img {
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 400 !important;
+    color: #6a6a90;
+    font-size: 1.063rem;
+    outline: 0;
+    overflow-y: auto;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.navbar-expand {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    padding: 25px;
+}
+
+.btn-primary {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    padding-top: 0px;
+    padding-right: 32px;
+    padding-bottom: 0px;
+    padding-left: 32px;
+    line-height: 42px;
+    text-align: center;
+    border: none;
+    border-radius: 100px;
+    display: block;
+    background: linear-gradient(to right, #ffbd84 0, #ff1f8e 100%);
+    box-shadow: 0 10px 15px 0 rgba(56, 0, 189, 0.2);
+}
+
+span.circle {
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    position: absolute;
+    top: -10%;
+    right: -130px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hero-bg {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url(./Images/bg-image8.jpg),#ffd6d6;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+/* .hero-section {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: auto;
+} */
+
+.hero-bg header {
+    margin-bottom: 46px;
+}
+
+.hero-bg .v-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.d-grid {
+    display: grid !important;
+}
+
+.main-btns {
+    grid-template-columns: 1fr 1fr;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.hero-bg a {
+    text-decoration: none;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.lnk {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-lg-2 {
+    background: linear-gradient(to right, #f92c8b 0, #b02cd6 100%);
+    box-shadow: 0 10px 15px 0 rgba(56, 0, 189, 0.2);
+}
+
+.hero-bg .header-title {
+    background-image: linear-gradient(45deg, #ff3870 0, #ff3870 50%, #c300c3 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
+    font-size: 5.85rem;
+    letter-spacing: -3px;
+}
+
+.h4 {
+    font-size: calc(1.275rem + .3vw);
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.hero-bg .header-subtitle {
+    color: #050748;
+}
+
+.h3 {
+    font-size: calc(1.3rem + .6vw);
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; 
+} 
+
+element.style {
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, #ffbd84, #ff1f8e);
+}
+
+::-webkit-scrollbar-track {
+    background: #e8e8e8;
+}
+
+::selection {
+    background: rgba(166, 175, 189, 0.3);
+}
+
+
+
+.mobile__menu--overlay {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.fa-bars:before {
+    content: "\f0c9";
+}
+
+::before {
+    box-sizing: border-box;
+}
+
+.navbar-light .navbar-toggler .mobile__menu--icon {
+    font-size: 1.5rem;
+}
+
+.fas {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.navbar-light .navbar-toggler {
+    color: #0a2233;
+    border-color: transparent;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.about-section p {
+    font-family: "Poppins", sans-serif !important;
+    display: block;
+    line-height: 1.7;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.follow-label {
+    margin: 0 50px 0 0;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #050748;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    display: block;
+}
+
+.footer-contact {
+    margin-top: 100px;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.common-heading {
+    color: #050748;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.contact-text {
+    position: relative;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social {
+    margin-top: 70px;
+    padding: 20px 0;
+    border-top: 1px solid #dfdfe7;
+}
+
+.footer-social .links {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: center;
+    place-items: center;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.copyright {
+    display: block;
+    justify-content: center;
+}
+/* .my-projects-btn i {
+    animation: arrowanim 2s infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: arrowanim;
+    animation-timeline: auto;
+    animation-range-start: normal;
+    animation-range-end: normal;
+} */
